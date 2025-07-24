@@ -1,0 +1,49 @@
+[
+  {
+    "slug": "portfolio-website",
+    "title": "Portfolio Website",
+    "short": "Personal website built with Flask, HTML, CSS, and animations using AOS.",
+    "full": "A clean and dynamic portfolio site showcasing my achievements, skills, and projects. Built with Flask, styled using CSS and AOS for beautiful scroll animations."
+  },
+  {
+    "slug": "news-app",
+    "title": "News Web App",
+    "short": "Built using Flask and NewsAPI to fetch and display live news articles dynamically.",
+    "full": "This web app fetches real-time news from NewsAPI and displays them in card format with category filtering. Flask handles the backend, and the frontend is fully responsive."
+  },
+  {
+    "slug": "sign-language-translator",
+    "title": "Sign Language Translator",
+    "short": "Converts text and speech into Indian Sign Language animations.",
+    "full": "The Sign Language Translator is a web-based application designed to enhance accessibility for the deaf and hard-of-hearing community by translating spoken or written input into Indian Sign Language (ISL)."
+  },
+  {
+    "slug": "Snake Game using DSA",
+    "title": "Classic Snake Game",
+    "short": "Schedules and manages tasks using linked lists.",
+"full": "This project is a classic Snake Game built using C++ and core data structure concepts like arrays and linked lists. The snake’s body is maintained using a linked list to allow dynamic growth as it eats food, while the game board is managed using a 2D array. It supports real-time movement, food spawning, collision detection, and score tracking. This project highlights the practical use of DSA in building interactive applications."  },
+  {
+   "slug": "restaurant-management-system",
+  "title": "Restaurant Management System",
+  "short": "A complete system to manage orders, menu, and billing.",
+  "full": "This Restaurant Management System is built using C++ and covers features like table reservations, menu display, order management, and automated bill generation. It simulates real-world restaurant operations and showcases structured programming, file handling, and object-oriented design. It’s a great demonstration of using C++ for real-life business solutions."
+  },
+  {
+    "slug": "solar-system-webapp",
+  "title": "Solar System Learning Web App",
+  "short": "An interactive 3D educational app using Blender and Unity.",
+  "full": "This project is an immersive solar system learning web app built with Unity and Blender. Each planet is modeled as a low-poly 3D object in Blender, then integrated into Unity with dynamic lighting, orbit simulation, and user interaction. Users can explore planetary facts, listen to sound effects, and visualize real-time orrery-like planetary motion. The interface is intuitive, educational, and designed for students to learn about space in an engaging way."
+  },
+  {
+    "slug": "obstacle-detecting-robot",
+  "title": "Obstacle Detecting Robot",
+  "short": "Arduino-based robot that detects and avoids obstacles.",
+  "full": "This obstacle-avoiding robot is built using an Arduino Uno, ultrasonic sensor (HC-SR04), servo motor for directional scanning, and DC motors for movement. The ultrasonic sensor detects obstacles in the path and the servo rotates it to scan surroundings. Based on distance calculations, the robot decides to stop, turn, or move forward to avoid collisions. It's a beginner-friendly robotics project showcasing real-time environment interaction and basic automation."
+  },
+  {
+     "slug": "friendly-chatbot",
+  "title": "Friendly Chatbot",
+  "short": "A Python chatbot that talks like a friend using AI API.",
+  "full": "This project is a conversational chatbot built using Python and an AI-based API like OpenAI's GPT. The chatbot is designed to respond in a warm, casual, and friendly tone—just like a human friend. It supports natural conversation, remembers context, and gives emotional responses. Ideal for practicing conversation, mental health support, or just casual chatting. Flask is used for the frontend interface, allowing users to chat in real time."
+  }
+]

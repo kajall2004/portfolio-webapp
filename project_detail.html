@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+{% block title %}{{ project.title }}{% endblock %}
+{% block content %}
+<section data-aos="fade-up">
+  <h2>{{ project.title }}</h2>
+  <p>{{ project.full }}</p>
+  {% if project.link %}
+    <p><a href="{{ project.link }}" target="_blank">View Project on GitHub</a></p>
+  {% endif %}
+  <a href="/" class="back-btn">← Back to Portfolio</a>
+</section>
+{% endblock %}

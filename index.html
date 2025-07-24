@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kajal Sharma | Portfolio</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+</head>
+<body>
+  <header>
+    <h1>Kajal Sharma</h1>
+    <nav>
+      <a href="#about-me">About</a>
+      <a href="#projects">Projects</a>
+    </nav>
+  </header>
+
+  <section id="about-me" data-aos="fade-up">
+    <h2>About Me</h2>
+    <p>Hi! I'm Kajal Sharma, a passionate software engineering student with a creative spark for building meaningful digital experiences. I love turning ideas into reality through web development and automation</p>
+    
+    <h3>🎓 School</h3>
+    <p>B.E in Computer Science, Chandigarh University (2023 - 2027)</p>
+    
+    <h3>🛠️ Skills</h3>
+    <ul>
+      <li>HTML, CSS, JavaScript, C++, C</li>
+      <li>Python, Flask</li>
+      <li>TinkerCad & Blender</li>
+      <li>UI / UX </li>
+    </ul>
+
+    <h3>📜 Certifications</h3>
+    <ul>
+      <li>Data Structure(UCSan Diego) - Coursera</li>
+      <li>Galactic Problem Solver - Nasa Space Apps Challenge</li>
+      <li>introduction to Blockchain - NPTEL</li>
+    </ul>
+    <h3>Achievements</h3>
+    <ul>
+      <li>Event Coordinator In Chandigarh University event organised by IIT KHARAGPUR</li>
+      <li>Participation in NASA SPACE APP CHALLENGE 2024</li>
+      <li>Participation in Tech event in Chandigarh University</li>
+      <li>Event Coordinator in CU Shark event in Chandigarh University</li>
+      <li>Finalist in Zinnovatio 2.0 hackathon</li>
+    </ul>
+  </section>
+
+  <section id="projects" data-aos="fade-up">
+    <h2>Projects</h2>
+    {% for project in projects %}
+      <div class="project-card" data-aos="zoom-in">
+        <h3>
+          <a href="{{ url_for('project_detail', slug=project.slug) }}">
+            {{ project.title }}
+          </a>
+        </h3>
+        <p>{{ project.short }}</p>
+      </div>
+    {% endfor %}
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Kajal Sharma</p>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
